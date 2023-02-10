@@ -7,8 +7,8 @@
 5. Done! Now you can try the endpoints below using a client such as Postman or Thunder Client
 
 ## Endpoints
-* Get all movies: ```localhost:8080/api/v1/movies```
-* Get a movie by IMDB ID: ```localhost:8080/api/v1/movies```
+* Get all movies: ``` GET localhost:8080/api/v1/movies```
+* Get a movie by IMDB ID: ```GET localhost:8080/api/v1/movies/:imdbId```
 * Create a review, make sure to include the IMDB ID: ```localhost:8080/api/v1/review```
   * Request body: 
   ```
